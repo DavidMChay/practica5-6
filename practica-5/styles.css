@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #0062cc;
+    border-color: #0062cc;
+}
+
+.btn-primary:hover {
+    background-color: #004bb5;
+    border-color: #004bb5;
+}
+
+#change-result {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+h3 {
+    color: #e40b0b;
+    font-weight: 700;
+}

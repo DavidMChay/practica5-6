@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio para Abarrotes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Verificador de Cambio</h3>
+                        <form id="change-form">
+                            <div class="form-group">
+                                <label for="paid-amount">Entrega:</label>
+                                <input type="number" class="form-control" id="paid-amount" placeholder="Ej. $100" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="total-amount">Total:</label>
+                                <input type="number" class="form-control" id="total-amount" placeholder="Ej. $73.26" step="0.01" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Cambio</button>
+                        </form>
+                        <div id="change-result" class="mt-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
