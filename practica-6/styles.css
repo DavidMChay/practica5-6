@@ -1,0 +1,25 @@
+body {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1 {
+    font-weight: 700;
+    color: #ff7300;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#solutionOutput {
+    background-color: #ffffff;
+}
+
+#movesList {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
